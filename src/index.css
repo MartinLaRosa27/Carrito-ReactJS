@@ -1,0 +1,107 @@
+/* Generales */
+* {
+  text-transform: uppercase;
+}
+/* Generales */
+
+/* Navbar */
+#Navbar {
+  background: skyblue !important;
+  padding: 20px 0 20px;
+}
+
+#Navbar .navbar-brand {
+  font-weight: bold;
+}
+
+#Navbar a {
+  transition: 0.3s !important;
+}
+
+#Navbar a:hover {
+  font-weight: bold;
+}
+/* Navbar */
+
+/* Footer */
+#Footer {
+  background-color: #0f0f0f;
+  color: whitesmoke;
+  text-align: center;
+  padding: 25px 0 25px;
+}
+/* Footer */
+
+/* Inicio */
+#Inicio {
+  min-height: 100vh;
+}
+
+#Buscador {
+  padding: 50px 0 50px;
+}
+
+#Buscador button {
+  text-transform: uppercase;
+}
+
+#Productos {
+  text-align: center;
+}
+
+#Productos .col {
+  margin: auto;
+  margin-top: 60px;
+}
+
+#Productos .card {
+  max-width: 250px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#Productos .card-footer {
+  display: flex;
+}
+
+#Productos .alert {
+  margin-top: 15px;
+}
+/* Inicio */
+
+/* Carrito */
+#Carrito {
+  min-height: 100vh;
+}
+
+#ProductosMarcados {
+  margin-top: 50px;
+}
+
+#ProductosMarcados span {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#ProductosMarcados span:hover {
+  background-color: #b01b1b !important;
+}
+
+#DetalleCompra {
+  margin-top: 50px;
+}
+
+#DetalleCompra .confirmar_pago {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+#DetalleCompra button {
+  text-transform: uppercase;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+/* Carrito */
